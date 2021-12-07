@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Game</title>
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fab fa-apple draggable" draggable="true" id="apple"></i>
+        <i class="fas fa-lemon draggable" draggable="true" id="lemon"></i>
+        <i class="fas fa-carrot draggable" draggable="true" id="carrot"></i>
+      </section>
+      <section class="droppable-elements">
+        
+        <div class="droppable" data-draggable-id="carrot"><span>carrot</span></div>
+        <div class="droppable" data-draggable-id="lemon"><span>lemon</span></div>
+        <div class="droppable" data-draggable-id="apple"><span>apple</span></div>
+      </section>
+</body>
+<script src="./Js/script.js"></script>
+</html>
